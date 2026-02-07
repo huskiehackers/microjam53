@@ -9,6 +9,12 @@ command_gun = "gun";
 //ammo
 command_ammo = "ammo";
 
+cmd_history = ds_queue_create();
+
+font_width = 1;
+//oxygen
+command_oxygen = "oxygen";
+
 
 
 
@@ -23,8 +29,8 @@ if (instance_exists(terminal_obj))
 
 
 
-x = terminal.x + 20;
-y = terminal.y - 10;
+x = terminal.x + 40;
+y = terminal.y + 60;
 
 
 keyboard_string = "";

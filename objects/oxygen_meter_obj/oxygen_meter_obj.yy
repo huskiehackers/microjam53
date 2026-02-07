@@ -30,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"oxygen_meter_spr",
+    "path":"sprites/oxygen_meter_spr/oxygen_meter_spr.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
