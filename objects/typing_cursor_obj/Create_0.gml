@@ -10,6 +10,10 @@ command_gun = "gun";
 command_ammo = "ammo";
 
 
+//oxygen
+command_oxygen = "oxygen";
+
+
 
 
 
