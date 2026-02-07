@@ -23,13 +23,13 @@
   "name":"MicroJam53",
   "resources":[
     {"id":{"name":"Oxygen_meter_obj","path":"objects/Oxygen_meter_obj/Oxygen_meter_obj.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Spaceship_room","path":"rooms/Spaceship_room/Spaceship_room.yy",},},
     {"id":{"name":"oxygen_meter_spr","path":"sprites/oxygen_meter_spr/oxygen_meter_spr.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Spaceship_room","path":"rooms/Spaceship_room/Spaceship_room.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
