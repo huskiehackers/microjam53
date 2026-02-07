@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"terminal_obj",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":16,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"terminal_obj",
   "overriddenProperties":[],
