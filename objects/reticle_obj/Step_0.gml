@@ -125,7 +125,3 @@ if (!place_meeting(x, y + y_vel, reticle_barrier_obj))
 y += y_vel;
 
 
-
-
-
-
