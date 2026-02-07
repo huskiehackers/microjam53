@@ -1,9 +1,8 @@
 MAX_ALIEN_SIZE = 288;
 
 //create an alien object, and leave room for it to grow.
-instance_create_layer(irandom_range(360,520),
-					  irandom_range(340, 360), 
-					  "Instances",
+instance_create_layer(irandom_range(460,670),420, 
+					  "Enemies",
 					  alien_obj);
 
 //reset the alarm.
