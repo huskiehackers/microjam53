@@ -8,6 +8,7 @@ command_gun = "gun";
 
 //ammo
 command_ammo = "ammo";
+global.ammo_box=0
 
 cmd_history = ds_queue_create();
 
