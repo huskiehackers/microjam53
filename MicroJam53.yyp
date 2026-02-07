@@ -23,6 +23,7 @@
   "name":"MicroJam53",
   "resources":[
     {"id":{"name":"alien_obj","path":"objects/alien_obj/alien_obj.yy",},},
+    {"id":{"name":"alien_spawner_obj","path":"objects/alien_spawner_obj/alien_spawner_obj.yy",},},
     {"id":{"name":"reticle_barrier_obj","path":"objects/reticle_barrier_obj/reticle_barrier_obj.yy",},},
     {"id":{"name":"reticle_obj","path":"objects/reticle_obj/reticle_obj.yy",},},
     {"id":{"name":"Spaceship_room","path":"rooms/Spaceship_room/Spaceship_room.yy",},},
