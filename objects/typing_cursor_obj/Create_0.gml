@@ -1,4 +1,21 @@
 
+draw_spot_x = x;
+draw_spot_y = y;
+
+
+//create the queue
+terminal_lines = ds_list_create();
+
+line_h = 45;
+input_y = y - 105;
+ceiling_y = 40;
+
+cmd_history = ds_queue_create();
+
+font_width = 1;
+
+
+max_lines = floor((input_y - ceiling_y) / line_h);
 
 
 /////////////////////COMMAND LIST
@@ -10,13 +27,10 @@ command_gun = "gun";
 command_ammo = "ammo";
 global.ammo_box=0
 
-cmd_history = ds_queue_create();
-
-font_width = 1;
 //oxygen
 command_oxygen = "oxygen";
 
-
+command_lights = "lights";
 
 
 
@@ -30,8 +44,6 @@ if (instance_exists(terminal_obj))
 
 
 
-x = terminal.x + 40;
-y = terminal.y + 60;
 
 
 keyboard_string = "";
