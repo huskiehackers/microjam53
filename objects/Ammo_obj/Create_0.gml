@@ -1,2 +1,2 @@
 pistolammo = 9
-pistolfirerate=0.2
+pistolfirerate=0.15
