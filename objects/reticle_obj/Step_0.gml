@@ -126,15 +126,20 @@ y += y_vel;
 
 
 // shooting
-if (keyboard_check_pressed(vk_space) and global.pistolammo>0)
+if (keyboard_check_pressed(vk_space) and global.pistolammo>0 )
 {
 	global.pistolammo -=1	
 	show_debug_message(global.pistolammo)
-}
 
-// reload
-if (keyboard_check_pressed(ord("R")))
+}
+if pistol_fire_rate<0
 {
+	pistol_fire_rate-=1
+}
+// reload
+if (keyboard_check_pressed(ord("R")) and global.ammo_box>=0)
+{
+	global.ammo_box-=1
 	if (global.pistolammo>0)
 	{
 	global.pistolammo=10
@@ -145,4 +150,3 @@ if (keyboard_check_pressed(ord("R")))
 		}
 		show_debug_message(global.pistolammo)
 }
-

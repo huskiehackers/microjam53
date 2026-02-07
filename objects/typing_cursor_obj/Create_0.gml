@@ -8,7 +8,7 @@ command_gun = "gun";
 
 //ammo
 command_ammo = "ammo";
-
+global.ammo_box=0
 
 
 
