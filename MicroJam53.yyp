@@ -22,7 +22,9 @@
   },
   "name":"MicroJam53",
   "resources":[
+    {"id":{"name":"alien_obj","path":"objects/alien_obj/alien_obj.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"alien_spr","path":"sprites/alien_spr/alien_spr.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
