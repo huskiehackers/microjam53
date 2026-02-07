@@ -34,7 +34,8 @@ if oxygendamagetimer == 5000000
 
 
 //scale the meter based on countdown
-image_yscale = (oxygen_meter_scaler * ( countdown / base_count_down ) );
+//image_yscale = (oxygen_meter_scaler * ( countdown / base_count_down ) );
+image_yscale = ( base_y_scale * (countdown/ base_count_down))
 
 
 
