@@ -1,6 +1,6 @@
 base_count_down = 1000
 countdown= base_count_down;
-healthbar= 6
+global.healthbar= 6
 oxygendamagetimer = 0
 oxygen_damage = 0.01;
 
