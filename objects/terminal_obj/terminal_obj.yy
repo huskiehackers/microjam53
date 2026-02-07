@@ -1,12 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"reticle_obj",
+  "%Name":"terminal_obj",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":16,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"reticle_obj",
+  "name":"terminal_obj",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"reticle_static_spr",
-    "path":"sprites/reticle_static_spr/reticle_static_spr.yy",
+    "name":"terminal_spr",
+    "path":"sprites/terminal_spr/terminal_spr.yy",
   },
   "spriteMaskId":null,
   "visible":true,

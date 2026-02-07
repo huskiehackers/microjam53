@@ -1,12 +1,14 @@
 {
   "$GMObject":"",
-  "%Name":"reticle_obj",
+  "%Name":"typing_cursor_obj",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":5,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"reticle_obj",
+  "name":"typing_cursor_obj",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"reticle_static_spr",
-    "path":"sprites/reticle_static_spr/reticle_static_spr.yy",
+    "name":"typing_cursor_spr",
+    "path":"sprites/typing_cursor_spr/typing_cursor_spr.yy",
   },
   "spriteMaskId":null,
   "visible":true,
