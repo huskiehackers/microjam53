@@ -7,7 +7,8 @@ if(image_xscale <= MAX_SIZE){
 	image_yscale += 0.01 * alien_speed;
 
 }
-if (keyboard_check_pressed(vk_space) and global.pistolammo>=1)
+if (keyboard_check_pressed(vk_space) and global.pistolammo>=1 
+and place_meeting(x, y, reticle_obj ) )
 {
 	alien_health-=5
 }
