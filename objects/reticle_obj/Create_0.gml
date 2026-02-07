@@ -8,5 +8,5 @@ y_vel = 0;
 x_vel = 0;
 // ammo firerate
 global.pistolammo = 9
-pistolfirerate=0.15
+pistol_fire_rate=true
 
