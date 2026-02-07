@@ -1,7 +1,7 @@
 {
   "$GMRoom":"v1",
   "%Name":"Spaceship_room",
-  "creationCodeFile":"",
+  "creationCodeFile":"rooms/Spaceship_room/RoomCreationCode.gml",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
@@ -17,6 +17,7 @@
     {"name":"inst_3382C56B","path":"rooms/Spaceship_room/Spaceship_room.yy",},
     {"name":"inst_73261E21","path":"rooms/Spaceship_room/Spaceship_room.yy",},
     {"name":"inst_7AD390A6","path":"rooms/Spaceship_room/Spaceship_room.yy",},
+    {"name":"inst_1361F722","path":"rooms/Spaceship_room/Spaceship_room.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -32,6 +33,7 @@
         {"$GMRInstance":"v4","%Name":"inst_6B056949","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6B056949","objectId":{"name":"reticle_barrier_obj","path":"objects/reticle_barrier_obj/reticle_barrier_obj.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":14.0,"scaleY":0.5,"x":32.0,"y":576.0,},
         {"$GMRInstance":"v4","%Name":"inst_3382C56B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3382C56B","objectId":{"name":"terminal_obj","path":"objects/terminal_obj/terminal_obj.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.7568626,"scaleY":3.8160002,"x":1024.0,"y":96.0,},
         {"$GMRInstance":"v4","%Name":"inst_73261E21","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_73261E21","objectId":{"name":"typing_cursor_obj","path":"objects/typing_cursor_obj/typing_cursor_obj.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1088.0,"y":192.0,},
+        {"$GMRInstance":"v4","%Name":"inst_1361F722","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1361F722","objectId":{"name":"win_timer_obj","path":"objects/win_timer_obj/win_timer_obj.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":800.0,"y":32.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
