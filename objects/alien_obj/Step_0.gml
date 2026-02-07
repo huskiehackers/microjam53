@@ -11,6 +11,10 @@ if(y < 550){
 	y += .8 * alien_speed;	
 }
 
+if(image_alpha < 1){
+	image_alpha += .01;
+}
+
 if (keyboard_check_pressed(vk_space) and global.pistolammo>=1 
 and place_meeting(x, y, reticle_obj ) )
 {
