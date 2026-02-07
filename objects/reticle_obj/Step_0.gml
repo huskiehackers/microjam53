@@ -124,10 +124,4 @@ x += x_vel;
 if (!place_meeting(x, y + y_vel, reticle_barrier_obj))
 y += y_vel;
 
-// shooting
-spacebar = keyboard_check_pressed(obj("spacebar"))
-
-
-
-
 
