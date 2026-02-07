@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"typing_cursor_spr",
   "bboxMode":0,
-  "bbox_bottom":31,
+  "bbox_bottom":63,
   "bbox_left":0,
   "bbox_right":31,
   "bbox_top":56,
