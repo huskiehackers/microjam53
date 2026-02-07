@@ -12,3 +12,13 @@ draw_sprite(sprite_index,image_index,x + (font_width * string_width(string_upper
 //draws the text in all CAPS
 //draw_text(x, y, string_upper(keyboard_string));
 //draw_text_colour(x, y, string_upper(keyboard_string), c_lime, c_lime, c_lime, c_lime, 1)
+
+var yy = input_y - line_h;
+for (var i = ds_list_size(terminal_lines) - 1; i >= 0; i--)
+{
+    if (yy < ceiling_y) break;
+
+    var s = ds_list_find_value(terminal_lines, i);
+    draw_text_colour(x, yy, string_upper(s), c_lime, c_lime, c_lime, c_lime, 1);
+    yy -= line_h;
+}
