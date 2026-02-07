@@ -1,3 +1,5 @@
+
+//when the player presses enter
 if (keyboard_check_pressed(vk_enter))
 {
 	
@@ -39,7 +41,27 @@ if (keyboard_check_pressed(vk_enter))
 	}
 	
 	
-	//reset the string to empty on enter
+		// add the line to history (list)
+	if (keyboard_string != "")
+	{
+	    ds_list_add(terminal_lines, keyboard_string);
+	}
+
+	// reset the input
 	keyboard_string = "";
+
+	// keep only what fits on screen (delete oldest)
+	while (ds_list_size(terminal_lines) > max_lines)
+	{
+	    ds_list_delete(terminal_lines, 0);
+	}
+
+	// optional debug
+	if (ds_list_size(terminal_lines) > 0)
+	{
+	    show_debug_message(ds_list_find_value(terminal_lines, ds_list_size(terminal_lines) - 1));
+	}
+
+
 	
 }
