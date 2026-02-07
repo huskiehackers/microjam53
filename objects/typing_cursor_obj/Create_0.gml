@@ -6,7 +6,7 @@ draw_spot_y = y;
 //create the queue
 terminal_lines = ds_list_create();
 
-line_h = 18;
+line_h = 45;
 input_y = y - 105;
 ceiling_y = 40;
 
@@ -43,8 +43,6 @@ if (instance_exists(terminal_obj))
 
 
 
-x = terminal.x + 60;
-y = terminal.y + 520;
 
 
 keyboard_string = "";
