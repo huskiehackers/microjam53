@@ -23,6 +23,16 @@ if (keyboard_check_pressed(vk_enter))
 		show_debug_message(global.ammo_box)
 	}
 	
+	if(string_lower(keyboard_string) == command_lights){
+	
+		layer_background_sprite(layer_background_get_id("Background"), background_ship_spr);
+		darkness_timer_obj.dark = false;
+		darkness_timer_obj.minutes = irandom_range(0,1);
+		darkness_timer_obj.seconds = irandom_range(0,59);
+		darkness_timer_obj.decisec = irandom_range(0,9);
+		alarm[0] = 6;
+	
+	}
 	
 	//if the player typed the oxygen command
 	//string_lower casts the characters to lowercase to
