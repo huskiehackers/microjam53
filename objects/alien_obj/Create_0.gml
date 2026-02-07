@@ -1,3 +1,4 @@
 alien_health = 20;
+alien_speed = 1;
 
-alien_speed = 10;
+alarm[0] = 30;
