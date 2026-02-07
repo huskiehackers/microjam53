@@ -22,8 +22,10 @@
   },
   "name":"MicroJam53",
   "resources":[
+    {"id":{"name":"reticle_barrier_obj","path":"objects/reticle_barrier_obj/reticle_barrier_obj.yy",},},
     {"id":{"name":"reticle_obj","path":"objects/reticle_obj/reticle_obj.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"reticle_barrier_spr","path":"sprites/reticle_barrier_spr/reticle_barrier_spr.yy",},},
     {"id":{"name":"reticle_spr","path":"sprites/reticle_spr/reticle_spr.yy",},},
   ],
   "resourceType":"GMProject",

@@ -116,6 +116,11 @@ if (right && down)
 }
 
 
+//if the reticle isnt running into a wall, move horizontal
+if (!place_meeting(x + x_vel, y, reticle_barrier_obj))
 x += x_vel;
+
+//if the reticle isnt running into a wall, move vertical
+if (!place_meeting(x, y + y_vel, reticle_barrier_obj))
 y += y_vel;
 
