@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"terminal_spr",
-    "path":"sprites/terminal_spr/terminal_spr.yy",
+    "name":"terminal_screen_spr",
+    "path":"sprites/terminal_screen_spr/terminal_screen_spr.yy",
   },
   "spriteMaskId":null,
   "visible":true,
