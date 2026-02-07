@@ -7,3 +7,11 @@ if(image_xscale <= MAX_SIZE){
 	image_yscale += 0.01 * alien_speed;
 
 }
+if (keyboard_check_pressed(vk_space) and global.pistolammo>=1)
+{
+	alien_health-=5
+}
+if (alien_health<=0)
+{
+instance_destroy(self)
+}
