@@ -126,16 +126,23 @@ y += y_vel;
 
 
 // shooting
-if (keyboard_check_pressed(vk_space) and global.pistolammo>=1)
+if (keyboard_check_pressed(vk_space) and global.pistolammo>0)
 {
 	global.pistolammo -=1	
+	show_debug_message(global.pistolammo)
 }
 
 // reload
-if (keyboard_check(ord("r")) and global.pistolammo=0)
+if (keyboard_check_pressed(ord("R")))
 {
-	
-global.pistolammo=9
+	if (global.pistolammo>0)
+	{
+	global.pistolammo=10
+	}
+	if global.pistolammo=0
+		{
+		global.pistolammo=9
+		}
+		show_debug_message(global.pistolammo)
 }
-else if (keyboard_check(ord("r")) and global.pistolammo>=1)
-global.pistolammo=10
+
