@@ -32,6 +32,7 @@
     {"id":{"name":"reticle_obj","path":"objects/reticle_obj/reticle_obj.yy",},},
     {"id":{"name":"terminal_obj","path":"objects/terminal_obj/terminal_obj.yy",},},
     {"id":{"name":"typing_cursor_obj","path":"objects/typing_cursor_obj/typing_cursor_obj.yy",},},
+    {"id":{"name":"win_timer_obj","path":"objects/win_timer_obj/win_timer_obj.yy",},},
     {"id":{"name":"Spaceship_room","path":"rooms/Spaceship_room/Spaceship_room.yy",},},
     {"id":{"name":"alien_spr","path":"sprites/alien_spr/alien_spr.yy",},},
     {"id":{"name":"oxygen_meter_spr","path":"sprites/oxygen_meter_spr/oxygen_meter_spr.yy",},},
