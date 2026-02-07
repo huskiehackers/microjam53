@@ -22,6 +22,8 @@
   },
   "name":"MicroJam53",
   "resources":[
+    {"id":{"name":"Oxygen_meter_obj","path":"objects/Oxygen_meter_obj/Oxygen_meter_obj.yy",},},
+    {"id":{"name":"oxygen_meter_spr","path":"sprites/oxygen_meter_spr/oxygen_meter_spr.yy",},},
     {"id":{"name":"alien_obj","path":"objects/alien_obj/alien_obj.yy",},},
     {"id":{"name":"reticle_barrier_obj","path":"objects/reticle_barrier_obj/reticle_barrier_obj.yy",},},
     {"id":{"name":"reticle_obj","path":"objects/reticle_obj/reticle_obj.yy",},},

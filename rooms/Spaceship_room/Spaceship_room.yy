@@ -6,6 +6,7 @@
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
+    {"name":"inst_6E3F95E2","path":"rooms/Spaceship_room/Spaceship_room.yy",},
     {"name":"inst_7AD390A6","path":"rooms/Spaceship_room/Spaceship_room.yy",},
     {"name":"inst_9AE0716","path":"rooms/Spaceship_room/Spaceship_room.yy",},
     {"name":"inst_6B056949","path":"rooms/Spaceship_room/Spaceship_room.yy",},
@@ -16,6 +17,7 @@
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"$GMRInstance":"v4","%Name":"inst_6E3F95E2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6E3F95E2","objectId":{"name":"Oxygen_meter_obj","path":"objects/Oxygen_meter_obj/Oxygen_meter_obj.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":736.0,"y":448.0,},
         {"$GMRInstance":"v4","%Name":"inst_7AD390A6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7AD390A6","objectId":{"name":"alien_obj","path":"objects/alien_obj/alien_obj.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":544.0,"y":256.0,},
         {"$GMRInstance":"v4","%Name":"inst_9AE0716","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_9AE0716","objectId":{"name":"reticle_obj","path":"objects/reticle_obj/reticle_obj.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":672.0,"y":288.0,},
         {"$GMRInstance":"v4","%Name":"inst_48F09468","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_48F09468","objectId":{"name":"reticle_barrier_obj","path":"objects/reticle_barrier_obj/reticle_barrier_obj.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":9.5,"x":0.0,"y":0.0,},
