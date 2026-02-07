@@ -2,14 +2,16 @@
 
 randomize();
 
-minutes = 3;
+minutes = 0;
 seconds = 1;
 decisec = 0;
 
 /*
-minutes = irandom_range(2,3);
-seconds = irandom_range(0,59);
-decisec = irandom_range(0,9);
+minutes = irandom_range(0,0);
+seconds = irandom_range(31,31);
+decisec = irandom_range(0,0);
 */
+
+dark = false;
 
 alarm[0] = 6;

@@ -11,17 +11,17 @@ if(seconds == -1){
 
 //flicker the lights
 if(minutes == 0 && seconds == 30 && decisec == 0){
-		layer_background_sprite(layer_background_get_id("Background"), background_ship_dark_spr);
-		layer_shader("Enemies", shdrBlackAndWhite);
+	layer_background_sprite(layer_background_get_id("Background"), background_ship_dark_spr);
+	dark = true;
 }
 if(minutes == 0 && seconds == 29 && decisec == 0){
-		layer_background_sprite(layer_background_get_id("Background"), background_ship_spr);
-		shader_reset();
+	layer_background_sprite(layer_background_get_id("Background"), background_ship_spr);
+	dark = false;
 }
 //lights go out
 if(minutes == 0 && seconds == 0 && decisec == 0){
 	layer_background_sprite(layer_background_get_id("Background"), background_ship_dark_spr);
-		layer_shader("Enemies", shdrBlackAndWhite);
+	dark = true;
 }
 
 alarm[0] = 6;
