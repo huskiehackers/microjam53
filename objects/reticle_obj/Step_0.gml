@@ -126,16 +126,14 @@ y += y_vel;
 
 
 // shooting
-if (keyboard_check_pressed(vk_space) and global.pistolammo>0 )
+if (keyboard_check_pressed(vk_space) and global.pistolammo>0 and pistol_fire_rate==true)
 {
+	pistol_fire_rate=false
 	global.pistolammo -=1	
 	show_debug_message(global.pistolammo)
+	alarm[0] = 0.2*(game_get_speed(gamespeed_fps))
+}
 
-}
-if pistol_fire_rate<0
-{
-	pistol_fire_rate-=1
-}
 // reload
 if (keyboard_check_pressed(ord("R")) and global.ammo_box>=0)
 {
