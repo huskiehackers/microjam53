@@ -125,3 +125,17 @@ if (!place_meeting(x, y + y_vel, reticle_barrier_obj))
 y += y_vel;
 
 
+// shooting
+if (keyboard_check_pressed(vk_space) and global.pistolammo>=1)
+{
+	global.pistolammo -=1	
+}
+
+// reload
+if (keyboard_check(ord("r")) and global.pistolammo=0)
+{
+	
+global.pistolammo=9
+}
+else if (keyboard_check(ord("r")) and global.pistolammo>=1)
+global.pistolammo=10
