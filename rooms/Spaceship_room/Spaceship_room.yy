@@ -19,11 +19,13 @@
     {"name":"inst_15669E6F","path":"rooms/Spaceship_room/Spaceship_room.yy",},
     {"name":"inst_6B750787","path":"rooms/Spaceship_room/Spaceship_room.yy",},
     {"name":"inst_7E7147DA","path":"rooms/Spaceship_room/Spaceship_room.yy",},
+    {"name":"inst_68E04031","path":"rooms/Spaceship_room/Spaceship_room.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"oxygen_meter_layer","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_15669E6F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_15669E6F","objectId":{"name":"oxygen_meter_obj","path":"objects/oxygen_meter_obj/oxygen_meter_obj.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":4.5,"x":2176.0,"y":576.0,},
+        {"$GMRInstance":"v4","%Name":"inst_68E04031","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_68E04031","objectId":{"name":"oxygen_meter_obj","path":"objects/oxygen_meter_obj/oxygen_meter_obj.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.5616555,"scaleX":0.46875,"scaleY":1.671875,"x":1068.9412,"y":338.49756,},
       ],"layers":[],"name":"oxygen_meter_layer","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_703BEAC2","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_703BEAC2","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.5,"spriteId":{"name":"empty_oxygen_spr1","path":"sprites/empty_oxygen_spr1/empty_oxygen_spr1.yy",},"x":2144.0,"y":288.0,},
