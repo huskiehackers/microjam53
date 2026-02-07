@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"alien_obj",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"reticle_barrier_obj",
+  "eventList":[],
   "managed":true,
-  "name":"alien_obj",
+  "name":"reticle_barrier_obj",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"alien_spr",
-    "path":"sprites/alien_spr/alien_spr.yy",
+    "name":"reticle_barrier_spr",
+    "path":"sprites/reticle_barrier_spr/reticle_barrier_spr.yy",
   },
   "spriteMaskId":null,
   "visible":true,
