@@ -126,7 +126,7 @@ y += y_vel;
 
 
 // shooting
-if (keyboard_check_pressed(vk_space) and global.pistolammo>0 and pistol_fire_rate==true)
+if (keyboard_check_pressed(vk_space) and global.pistolammo>0 and pistol_fire_rate==true and terminal_obj.active == false)
 {
 	pistol_fire_rate=false
 	global.pistolammo -=1	
@@ -135,7 +135,7 @@ if (keyboard_check_pressed(vk_space) and global.pistolammo>0 and pistol_fire_rat
 }
 
 // reload
-if (keyboard_check_pressed(ord("R")) and global.ammo_box>=0)
+if (keyboard_check_pressed(ord("R")) and global.ammo_box>=0 and terminal_obj.active == false)
 {
 	global.ammo_box-=1
 	if (global.pistolammo>0)

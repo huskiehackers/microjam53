@@ -11,13 +11,13 @@ countdown -=1
 //if countdown is 0, take damage
 if (countdown <= 0 )
 {
-	healthbar -= oxygen_damage;	
+	global.healthbar -= oxygen_damage;	
 }
 
 
 
 
-if (healthbar==0)
+if (global.healthbar==0)
 {
 	room_restart()	
 }
@@ -28,13 +28,14 @@ if countdown == 0
 }
 if oxygendamagetimer == 5000000
 {
-	healthbar -=1
+	global.healthbar -=1
 	oxygendamagetimer = 0
 }
 
 
 //scale the meter based on countdown
-image_yscale = (oxygen_meter_scaler * ( countdown / base_count_down ) );
+//image_yscale = (oxygen_meter_scaler * ( countdown / base_count_down ) );
+image_yscale = ( base_y_scale * (countdown/ base_count_down))
 
 
 
