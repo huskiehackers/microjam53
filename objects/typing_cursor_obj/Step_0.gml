@@ -36,7 +36,7 @@ if (keyboard_check_pressed(vk_enter) && terminal_obj.active == true)
 	{
 	
 	terminal_print("ERROR MEDKIT ON COOLDOWN")
-	terminal_print("TRY AGAIN IN " + string_format((alarm[2] / (game_get_speed(gamespeed_fps)) ), 2, 0) + " SECONDS")
+	terminal_print("TRY AGAIN IN T - " + string_format((alarm[2] / (game_get_speed(gamespeed_fps)) ), 2, 0) + " SECONDS")
 	
 	}
 	
@@ -69,6 +69,12 @@ if (keyboard_check_pressed(vk_enter) && terminal_obj.active == true)
 		alarm[1] = 14 * 60;
 		terminal_print("LAUNCH SEQUENCE INITATIED");
 		terminal_print("PLEASE STAND BY");
+	}
+	
+	else if (string_lower(keyboard_string) == command_launch && win_timer_obj.takeoff_ready == false)
+	{
+		terminal_print("ESCAPE POD READY IN T - " + string_format(( (win_timer_obj.minutes * 60 ) + win_timer_obj.seconds  ), 3, 0) + " SECONDS")
+		
 	}
 	
 	
