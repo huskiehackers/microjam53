@@ -31,7 +31,7 @@
     {"id":{"name":"alien_obj","path":"objects/alien_obj/alien_obj.yy",},},
     {"id":{"name":"alien_spawner_obj","path":"objects/alien_spawner_obj/alien_spawner_obj.yy",},},
     {"id":{"name":"ammo_counter","path":"objects/ammo_counter/ammo_counter.yy",},},
-    {"id":{"name":"damage_effect","path":"objects/damage_effect/damage_effect.yy",},},
+    {"id":{"name":"damage_effect_obj","path":"objects/damage_effect_obj/damage_effect_obj.yy",},},
     {"id":{"name":"darkness_timer_obj","path":"objects/darkness_timer_obj/darkness_timer_obj.yy",},},
     {"id":{"name":"oxygen_meter_obj","path":"objects/oxygen_meter_obj/oxygen_meter_obj.yy",},},
     {"id":{"name":"reticle_barrier_obj","path":"objects/reticle_barrier_obj/reticle_barrier_obj.yy",},},
