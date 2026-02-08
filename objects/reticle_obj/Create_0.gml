@@ -7,9 +7,6 @@ SPEED = 15;
 y_vel = 0;
 x_vel = 0;
 // ammo firerate
-global.pistolammo = 9
-pistol_fire_rate=true
-
 // States
 enum reticle_states {
 	idle,
@@ -32,3 +29,5 @@ fire_end = 13;
 
 empty_start = 14;
 empty_end = 19;
+global.pistolammo = 32
+pistol_fire_rate=true

@@ -34,9 +34,9 @@ if (keyboard_check_pressed(vk_enter) && terminal_obj.active == true)
 	//if the player typed the ammo command
 	//string_lower casts the characters to lowercase to
 	//remove case sensitivity
-	if ( string_lower(keyboard_string) == command_ammo and global.ammo_box<=3)
+	if ( string_lower(keyboard_string) == command_ammo and global.ammo_box<=32)
 	{
-		global.ammo_box+=1
+		global.ammo_box+= 32
 		show_debug_message(global.ammo_box)
 		terminal_print("AMMUNITION GRANTED");
 	}
