@@ -44,7 +44,7 @@ command_lights = "lights";
 command_medkit = "medkit";
 medkit_cooldown=false
 have_medkit=true
-command_takeoff = "takeoff";
+command_launch = "launch";
 
 
 //help

@@ -53,7 +53,7 @@ if (keyboard_check_pressed(vk_enter) && terminal_obj.active == true)
 	
 	}
 	
-	if(string_lower(keyboard_string) == command_takeoff && win_timer_obj.takeoff_ready == true){
+	if(string_lower(keyboard_string) == command_launch && win_timer_obj.takeoff_ready == true){
 
 		audio_play_sound(takeoff_countdown_sound,10,false);
 		alarm[1] = 14 * 60;
