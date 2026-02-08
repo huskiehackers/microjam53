@@ -1,6 +1,6 @@
 
 //when the player presses enter
-if (keyboard_check_pressed(vk_enter))
+if (keyboard_check_pressed(vk_enter) && terminal_obj.active == true)
 {
 	
 	
