@@ -7,8 +7,8 @@ if(image_xscale <= MAX_SIZE){
 	image_yscale += 0.01 * alien_speed;
 }
 //have aliens move towards the line.
-if(y < 700){
-	y += .8 * alien_speed;	
+if(y < 550){
+	y += .4 * alien_speed;	
 }
 
 if(image_alpha < 1){
@@ -24,6 +24,4 @@ if (alien_health <= 0)
 {
 	instance_destroy(self)
 }
-
-// ANIMATION
 
