@@ -33,6 +33,7 @@
     {"id":{"name":"alien_spawner_obj","path":"objects/alien_spawner_obj/alien_spawner_obj.yy",},},
     {"id":{"name":"ambience_emitter_obj","path":"objects/ambience_emitter_obj/ambience_emitter_obj.yy",},},
     {"id":{"name":"ammo_counter","path":"objects/ammo_counter/ammo_counter.yy",},},
+    {"id":{"name":"crawl_alien_obj","path":"objects/crawl_alien_obj/crawl_alien_obj.yy",},},
     {"id":{"name":"damage_effect_obj","path":"objects/damage_effect_obj/damage_effect_obj.yy",},},
     {"id":{"name":"darkness_timer_obj","path":"objects/darkness_timer_obj/darkness_timer_obj.yy",},},
     {"id":{"name":"music_player_obj","path":"objects/music_player_obj/music_player_obj.yy",},},

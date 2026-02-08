@@ -6,3 +6,5 @@ random_set_seed(32232339);
 //set alarm to begin alien creation process.
 alarm[0] = irandom_range(SPAWN_TIME_LOW, SPAWN_TIME_HIGH);
 
+//set alarm to spawn crawling aliens
+alarm[1] = irandom_range(SPAWN_TIME_LOW, SPAWN_TIME_HIGH);
