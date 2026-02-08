@@ -23,12 +23,10 @@ if (keyboard_check_pressed(vk_enter) && terminal_obj.active == true)
 	// if player types medkit and its not on cooldown
 	if  ( string_lower(keyboard_string) == command_medkit and medkit_cooldown==false)
 	{
-	have_medkit=true
-	medkit_cooldown=true
-	alarm[2] = 30*(game_get_speed(gamespeed_fps))
-	show_debug_message(have_medkit)
-	show_debug_message(medkit_cooldown)
-	terminal_print("MEDKIT GRANTED - F TO USE");
+		global.has_medkit = true
+		medkit_cooldown=true
+		alarm[2] = 30*(game_get_speed(gamespeed_fps))
+		terminal_print("MEDKIT GRANTED");
 	}
 	
 	
