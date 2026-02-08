@@ -171,3 +171,15 @@ else
 }
 
 
+
+//Code to detect crosshair animation play
+if (instance_exists(walk_alien_obj) && place_meeting(x, y, walk_alien_obj))
+	/* || instance_exists(other_alien) && place_meeting(x,y,other_alien));*/
+{
+
+	//place code here
+	
+}
+
+
+
