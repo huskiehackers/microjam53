@@ -20,7 +20,7 @@ if (keyboard_check_pressed(vk_enter) && terminal_obj.active == true)
 	
 
 	
-	// if player types medkit
+	// if player types medkit and its not on cooldown
 	if  ( string_lower(keyboard_string) == command_medkit and medkit_cooldown==false)
 	{
 	have_medkit=true
@@ -30,6 +30,16 @@ if (keyboard_check_pressed(vk_enter) && terminal_obj.active == true)
 	show_debug_message(medkit_cooldown)
 	terminal_print("MEDKIT GRANTED - F TO USE");
 	}
+	
+	
+	else if (string_lower(keyboard_string) == command_medkit && medkit_cooldown == true)
+	{
+	
+	terminal_print("ERROR MEDKIT ON COOLDOWN")
+	terminal_print("TRY AGAIN IN " + string_format((alarm[2] / (game_get_speed(gamespeed_fps)) ), 2, 0) + " SECONDS")
+	
+	}
+	
 
 	//if the player typed the ammo command
 	//string_lower casts the characters to lowercase to
