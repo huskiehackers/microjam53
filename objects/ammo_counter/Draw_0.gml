@@ -1,1 +1,1 @@
-draw_text(1130 - 1130/4,0, string(global.pistolammo) + "/" + string((global.ammo_box )));
+draw_text(100,60, string(global.pistolammo) + "/" + string((global.ammo_box )));
