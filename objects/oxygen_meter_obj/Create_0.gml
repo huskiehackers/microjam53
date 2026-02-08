@@ -1,4 +1,4 @@
-base_count_down = 1000
+base_count_down = 3000
 countdown= base_count_down;
 global.healthbar= 100
 oxygendamagetimer = 0
