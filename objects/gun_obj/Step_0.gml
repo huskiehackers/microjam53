@@ -7,6 +7,7 @@ y = start_y + reticle_obj.y * 0.05;
 if (global.shot_fired)
 {
 	curr_state = gun_state.shooting;
+	audio_play_sound(gunshot_sound,0,false);
 }
 
 if (global.reload_event)
