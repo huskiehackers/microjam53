@@ -31,6 +31,7 @@
   "resources":[
     {"id":{"name":"handwriting_font","path":"fonts/handwriting_font/handwriting_font.yy",},},
     {"id":{"name":"terminal_font","path":"fonts/terminal_font/terminal_font.yy",},},
+    {"id":{"name":"victory_font","path":"fonts/victory_font/victory_font.yy",},},
     {"id":{"name":"alien_spawner_obj","path":"objects/alien_spawner_obj/alien_spawner_obj.yy",},},
     {"id":{"name":"ambience_emitter_obj","path":"objects/ambience_emitter_obj/ambience_emitter_obj.yy",},},
     {"id":{"name":"ammo_counter","path":"objects/ammo_counter/ammo_counter.yy",},},
@@ -48,9 +49,11 @@
     {"id":{"name":"terminal_obj","path":"objects/terminal_obj/terminal_obj.yy",},},
     {"id":{"name":"timer_label_obj","path":"objects/timer_label_obj/timer_label_obj.yy",},},
     {"id":{"name":"typing_cursor_obj","path":"objects/typing_cursor_obj/typing_cursor_obj.yy",},},
+    {"id":{"name":"victory_room_obj","path":"objects/victory_room_obj/victory_room_obj.yy",},},
     {"id":{"name":"walk_alien_obj","path":"objects/walk_alien_obj/walk_alien_obj.yy",},},
     {"id":{"name":"win_timer_obj","path":"objects/win_timer_obj/win_timer_obj.yy",},},
     {"id":{"name":"Spaceship_room","path":"rooms/Spaceship_room/Spaceship_room.yy",},},
+    {"id":{"name":"victory_rom","path":"rooms/victory_rom/victory_rom.yy",},},
     {"id":{"name":"terminal_print","path":"scripts/terminal_print/terminal_print.yy",},},
     {"id":{"name":"shdrBlackAndWhite","path":"shaders/shdrBlackAndWhite/shdrBlackAndWhite.yy",},},
     {"id":{"name":"alien_death_sound","path":"sounds/alien_death_sound/alien_death_sound.yy",},},
@@ -84,11 +87,13 @@
     {"id":{"name":"timer_spr","path":"sprites/timer_spr/timer_spr.yy",},},
     {"id":{"name":"two_health_spr","path":"sprites/two_health_spr/two_health_spr.yy",},},
     {"id":{"name":"typing_cursor_spr","path":"sprites/typing_cursor_spr/typing_cursor_spr.yy",},},
+    {"id":{"name":"victory_screen_spr","path":"sprites/victory_screen_spr/victory_screen_spr.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Spaceship_room","path":"rooms/Spaceship_room/Spaceship_room.yy",},},
+    {"roomId":{"name":"victory_rom","path":"rooms/victory_rom/victory_rom.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
