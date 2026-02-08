@@ -1,7 +1,9 @@
 //variables
 
-minutes = 3;
-seconds = 0;
+minutes = 0;
+seconds = 15;
 decisec = 0;
 
 alarm[0] = 6;
+
+takeoff_ready = false;

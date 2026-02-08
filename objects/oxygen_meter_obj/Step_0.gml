@@ -9,8 +9,13 @@ countdown -=1
 
 
 //if countdown is 0, take damage
-if (countdown <= 0 )
+if (countdown == 0 )
 {
+	alarm[0] = 1;
+	--countdown;	
+}
+
+if(countdown <= 0){
 	global.healthbar -= oxygen_damage;	
 }
 
@@ -21,7 +26,7 @@ if (global.healthbar==0)
 {
 	room_restart()	
 }
-if countdown == 0
+if countdown <= 0
 { 
 	
 	oxygendamagetimer  += delta_time

@@ -1,1 +1,2 @@
-global.healthbar=6
+//goes off after take off command is successful.
+game_end(0);

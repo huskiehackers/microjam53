@@ -9,7 +9,7 @@ if(seconds == -1){
 	seconds = 59;
 }
 if(minutes == 0 && seconds == 0 && decisec == 0){
-	game_end(0);
+	takeoff_ready = true;
 }
 
 alarm[0] = 6;
