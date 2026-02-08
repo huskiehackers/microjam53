@@ -37,6 +37,7 @@ global.ammo_box=0
 //oxygen
 command_oxygen = "oxygen";
 
+//lights
 command_lights = "lights";
 
 //health
@@ -45,6 +46,9 @@ medkit_cooldown=false
 have_medkit=true
 command_takeoff = "takeoff";
 
+
+//help
+command_help = "help";
 
 
 //if the terminal exists

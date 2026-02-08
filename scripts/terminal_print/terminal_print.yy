@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"terminal_print",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"terminal_print",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
