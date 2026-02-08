@@ -1,28 +1,28 @@
-if global.healthbar <=5
+if global.healthbar <=90
 {
 	draw_sprite(five_health_spr,0,0,0)
 	display_get_width()
 	display_get_height()
 }
-if global.healthbar <=4
+if global.healthbar <=70
 {
 	draw_sprite(four_health_spr,0,0,0)
 	display_get_width()
 	display_get_height()
 }
-if global.healthbar <=3
+if global.healthbar <=50
 {
 	draw_sprite(three_health_spr,0,0,0)
 	display_get_width()
 	display_get_height()
 }
-if global.healthbar <=2
+if global.healthbar <=40
 {
 	draw_sprite(two_health_spr,0,0,0)
 	display_get_width()
 	display_get_height()
 }
-if global.healthbar <=1
+if global.healthbar <=20
 {
 	draw_sprite(one_health_spr,0,0,0)
 	display_get_width()
@@ -31,7 +31,7 @@ if global.healthbar <=1
 	//if player uses a medkit
 	if keyboard_check_pressed(ord("H"))
 	{
-		global.healthbar=6
+		global.healthbar= 100
 		show_debug_message(global.healthbar)
 		have_medkit=false
 	}
