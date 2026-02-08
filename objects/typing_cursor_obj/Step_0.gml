@@ -41,7 +41,7 @@ if (keyboard_check_pressed(vk_enter) && terminal_obj.active == true)
 		terminal_print("AMMUNITION GRANTED");
 	}
 	
-	if(string_lower(keyboard_string) == command_lights && darkness_timer_obj == true){
+	if(string_lower(keyboard_string) == command_lights && darkness_timer_obj.dark == true){
 	
 		layer_background_sprite(layer_background_get_id("Background"), background_ship_spr);
 		darkness_timer_obj.dark = false;
