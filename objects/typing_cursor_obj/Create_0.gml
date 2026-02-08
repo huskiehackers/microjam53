@@ -32,7 +32,7 @@ command_oxygen = "oxygen";
 
 command_lights = "lights";
 
-
+command_takeoff = "takeoff";
 
 
 

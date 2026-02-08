@@ -30,8 +30,14 @@ if (keyboard_check_pressed(vk_enter))
 		darkness_timer_obj.minutes = irandom_range(0,1);
 		darkness_timer_obj.seconds = irandom_range(0,59);
 		darkness_timer_obj.decisec = irandom_range(0,9);
-		alarm[0] = 6;
+		darkness_timer_obj.alarm[0] = 6;
 	
+	}
+	
+	if(string_lower(keyboard_string) == command_takeoff && win_timer_obj.takeoff_ready == true){
+
+		audio_play_sound(takeoff_countdown_sound,10,false);
+		alarm[1] = 14 * 60;
 	}
 	
 	//if the player typed the oxygen command
