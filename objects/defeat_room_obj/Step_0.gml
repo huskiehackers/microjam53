@@ -1,15 +1,4 @@
 
-
-
-//loop end frames
-if (image_index >= 41 )
-{
-	image_index = 38;
-}
-
-
-
-
 //restart game
 if ( keyboard_check(ord("F")))
 {
