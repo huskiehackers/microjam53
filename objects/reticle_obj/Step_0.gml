@@ -150,4 +150,6 @@ if (keyboard_check_pressed(ord("R")) and global.ammo_box>=0 and terminal_obj.act
 		alarm[1] = 1.2*(game_get_speed(gamespeed_fps))
 		}
 		show_debug_message(global.pistolammo)
+		
+		audio_play_sound(reload_sound,0,false);
 }

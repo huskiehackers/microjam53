@@ -42,7 +42,7 @@ if (keyboard_check_pressed(vk_enter) && terminal_obj.active == true)
 		show_debug_message(global.ammo_box)
 	}
 	
-	if(string_lower(keyboard_string) == command_lights){
+	if(string_lower(keyboard_string) == command_lights && darkness_timer_obj == true){
 	
 		layer_background_sprite(layer_background_get_id("Background"), background_ship_spr);
 		darkness_timer_obj.dark = false;
