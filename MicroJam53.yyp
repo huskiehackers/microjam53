@@ -35,6 +35,7 @@
     {"id":{"name":"ammo_counter","path":"objects/ammo_counter/ammo_counter.yy",},},
     {"id":{"name":"damage_effect_obj","path":"objects/damage_effect_obj/damage_effect_obj.yy",},},
     {"id":{"name":"darkness_timer_obj","path":"objects/darkness_timer_obj/darkness_timer_obj.yy",},},
+    {"id":{"name":"gun_obj","path":"objects/gun_obj/gun_obj.yy",},},
     {"id":{"name":"music_player_obj","path":"objects/music_player_obj/music_player_obj.yy",},},
     {"id":{"name":"oxygen_meter_obj","path":"objects/oxygen_meter_obj/oxygen_meter_obj.yy",},},
     {"id":{"name":"reticle_barrier_obj","path":"objects/reticle_barrier_obj/reticle_barrier_obj.yy",},},

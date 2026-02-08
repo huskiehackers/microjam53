@@ -126,8 +126,10 @@ y += y_vel;
 
 
 // shooting
-if (keyboard_check_pressed(vk_space) and global.pistolammo>0 and pistol_fire_rate==true and terminal_obj.active == false and reloading==false)
+if (keyboard_check_pressed(vk_space) and global.pistolammo>0 and pistol_fire_rate==true and terminal_obj.active == false and global.reload_event == false)
 {
+	global.shot_fired = true;
+	
 	pistol_fire_rate=false
 	global.pistolammo -=1	
 	show_debug_message(global.pistolammo)
@@ -135,9 +137,10 @@ if (keyboard_check_pressed(vk_space) and global.pistolammo>0 and pistol_fire_rat
 }
 
 // reload
-if (keyboard_check_pressed(ord("R")) and global.ammo_box>=0 and terminal_obj.active == false and reloading==false)
+if (keyboard_check_pressed(ord("R")) and global.ammo_box>=0 and terminal_obj.active == false and global.reload_event == false)
 {
-	reloading=true
+	global.reload_event = true;
+	
 	global.ammo_box-=1
 	if (global.pistolammo>0)
 	{
@@ -145,11 +148,11 @@ if (keyboard_check_pressed(ord("R")) and global.ammo_box>=0 and terminal_obj.act
 	alarm[1] = 1*(game_get_speed(gamespeed_fps))
 	}
 	if global.pistolammo==0
-		{
+	{
 		global.pistolammo=9
 		alarm[1] = 1.2*(game_get_speed(gamespeed_fps))
-		}
-		show_debug_message(global.pistolammo)
+	}
+	show_debug_message(global.pistolammo)
 		
-		audio_play_sound(reload_sound,0,false);
+	audio_play_sound(reload_sound,0,false);
 }
