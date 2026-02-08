@@ -129,6 +129,7 @@ y += y_vel;
 if (keyboard_check_pressed(vk_space) and global.pistolammo>0 and pistol_fire_rate==true and terminal_obj.active == false and global.reload_event == false)
 {
 	global.shot_fired = true;
+	curr_state = reticle_states.fire;
 	
 	pistol_fire_rate=false
 	global.pistolammo -=1	
@@ -164,25 +165,68 @@ if (darkness_timer_obj.dark)
 {
 	image_alpha = 0.05;	
 }
-
-
-
 //else reset cursor
 else
 {
 	image_alpha = 1;	
 }
 
-
-
 //Code to detect crosshair animation play
-if (instance_exists(walk_alien_obj) && place_meeting(x, y, walk_alien_obj))
+if (global.pistolammo == 0)
+{
+	curr_state = reticle_states.empty;
+}
+else if ((instance_exists(walk_alien_obj) && place_meeting(x, y, walk_alien_obj)) ||
+	(instance_exists(crawl_alien_obj) && place_meeting(x,y,crawl_alien_obj)) ||
+	(instance_exists(fly_alien_obj) && place_meeting(x,y,fly_alien_obj)))
 	/* || instance_exists(other_alien) && place_meeting(x,y,other_alien));*/
 {
-
-	//place code here
-	
+	if (curr_state == reticle_states.idle)
+	{
+		curr_state = reticle_states.aiming;
+	}
+}
+else if (curr_state != reticle_states.fire)
+{
+	curr_state = reticle_states.idle;
 }
 
+// Animation loop
+if (curr_state == reticle_states.idle)
+{
+	image_index = idle_frame;
+}
+else if (curr_state == reticle_states.aiming)
+{
+	if (image_index < aim_start || image_index > aim_end)
+	{
+		image_index = aim_start;
+	}
+	
+	if (image_index >= aim_end)
+	{
+		curr_state = reticle_states.aimed;
+	}
+}
+else if (curr_state == reticle_states.aimed)
+{
+	image_index = aim_end;
+}
+else if (curr_state == reticle_states.fire)
+{
+	if (image_index < fire_start || image_index > fire_end)
+	{
+		image_index = fire_start;
+	}
+	
+	if (image_index >= fire_end)
+	{
+		curr_state = reticle_states.idle;
+	}
+}
+else if (curr_state == reticle_states.empty)
+{
+	image_index = empty_end - 1;
+}
 
 

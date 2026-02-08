@@ -16,7 +16,7 @@ enum gun_state {
 curr_state = gun_state.idle;
 
 // Animations
-idle_frame = 1;
+idle_frame = 0;
 
 shooting_start = 1;
 shooting_end = 8;
