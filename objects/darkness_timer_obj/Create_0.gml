@@ -4,7 +4,7 @@ randomize();
 
 
 minutes = 0;
-seconds = 1;
+seconds = 31;
 decisec = 0;
 
 /*
