@@ -33,7 +33,8 @@ if (keyboard_check_pressed(vk_space) and global.pistolammo >= 1 and place_meetin
 
 if (alien_health <= 0)
 {
-	instance_destroy(self);
+	audio_play_sound(alien_death_sound,0,false);
+	instance_destroy(self)
 }
 
 // Animation loop
