@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"player_hurt_sound",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.8772789,
+  "exportDir":"",
+  "name":"player_hurt_sound",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":22050,
+  "soundFile":"player_hurt_sound.mp3",
+  "volume":1.0,
+}

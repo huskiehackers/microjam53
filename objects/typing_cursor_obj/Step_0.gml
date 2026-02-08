@@ -51,6 +51,7 @@ if (keyboard_check_pressed(vk_enter) && terminal_obj.active == true)
 		{
 			//reset the countdown on the oxygen
 			oxygen_meter_obj.countdown = oxygen_meter_obj.base_count_down
+			oxygen_meter_obj.alarm[0] = -1;
 		}
 		
 		
