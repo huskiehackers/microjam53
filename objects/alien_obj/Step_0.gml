@@ -25,14 +25,14 @@ if(image_alpha < 1){
 	image_alpha += .01;
 }
 
-if (keyboard_check_pressed(vk_space) and global.pistolammo >= 1 and place_meeting(x, y, reticle_obj))
+if (keyboard_check_pressed(vk_space) and global.pistolammo >= 1 and place_meeting(x, y, reticle_obj) && curr_state != alien_state.dying)
 {
 	curr_state = alien_state.hit;
 	alien_health -= 5;
 	image_index = hit_start
 }
 
-if (alien_health <= 0)
+if (alien_health <= 0 && curr_state != alien_state.dying)
 {
 	curr_state = alien_state.dying;
 }
