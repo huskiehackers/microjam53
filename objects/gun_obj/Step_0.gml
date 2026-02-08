@@ -4,6 +4,9 @@ y = start_y + reticle_obj.y * 0.05;
 
 
 
+
+
+
 if (global.shot_fired)
 {
 	curr_state = gun_state.shooting;
