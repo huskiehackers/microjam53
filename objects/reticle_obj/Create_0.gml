@@ -7,5 +7,5 @@ SPEED = 15;
 y_vel = 0;
 x_vel = 0;
 // ammo firerate
-global.pistolammo = 9
+global.pistolammo = 32
 pistol_fire_rate=true

@@ -137,19 +137,19 @@ if (keyboard_check_pressed(vk_space) and global.pistolammo>0 and pistol_fire_rat
 }
 
 // reload
-if (keyboard_check_pressed(ord("R")) and global.ammo_box>=0 and terminal_obj.active == false and global.reload_event == false)
+if (keyboard_check_pressed(ord("R")) and global.ammo_box>=1 and terminal_obj.active == false and global.reload_event == false)
 {
 	global.reload_event = true;
 	
-	global.ammo_box-=1
+	global.ammo_box -= ( 32 - global.pistolammo)
 	if (global.pistolammo>0)
 	{
-	global.pistolammo=10
+	global.pistolammo=32
 	alarm[1] = 1*(game_get_speed(gamespeed_fps))
 	}
 	if global.pistolammo==0
 	{
-		global.pistolammo=9
+		global.pistolammo=31
 		alarm[1] = 1.2*(game_get_speed(gamespeed_fps))
 	}
 	show_debug_message(global.pistolammo)
