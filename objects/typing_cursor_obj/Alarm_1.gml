@@ -1,2 +1,2 @@
 //goes off after take off command is successful.
-game_end(0);
+room_goto(victory_rom);

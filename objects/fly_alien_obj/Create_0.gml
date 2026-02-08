@@ -1,4 +1,4 @@
-alien_health = 20;
+alien_health = 15;
 alien_speed = 0.9;
 
 image_yscale = 4;
