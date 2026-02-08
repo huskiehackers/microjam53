@@ -147,4 +147,6 @@ if (keyboard_check_pressed(ord("R")) and global.ammo_box>=0 and terminal_obj.act
 		global.pistolammo=9
 		}
 		show_debug_message(global.pistolammo)
+		
+		audio_play_sound(reload_sound,0,false);
 }
