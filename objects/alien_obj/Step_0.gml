@@ -18,6 +18,7 @@ if (y >= 540 && curr_state != alien_state.hit && curr_state != alien_state.dying
 	if (image_index == attack_impact)
 	{
 		// add hit damage
+		global.healthbar -= 15;
 	}
 }
 

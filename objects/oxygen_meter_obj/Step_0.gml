@@ -22,7 +22,7 @@ if(countdown <= 0){
 
 
 
-if (global.healthbar==0)
+if (global.healthbar<=0)
 {
 	room_restart()	
 }
