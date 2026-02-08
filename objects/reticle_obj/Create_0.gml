@@ -10,3 +10,4 @@ x_vel = 0;
 global.pistolammo = 9
 pistol_fire_rate=true
 
+reloading=false
