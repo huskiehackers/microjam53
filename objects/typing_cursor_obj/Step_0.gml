@@ -1,4 +1,15 @@
 
+
+//maximum characters per string
+var MAX_CHARS = 15;
+
+if (string_length(keyboard_string) > MAX_CHARS)
+{
+	keyboard_string = string_copy(keyboard_string, 1, MAX_CHARS);	
+}
+
+
+
 //when the player presses enter
 if (keyboard_check_pressed(vk_enter) && terminal_obj.active == true)
 {
