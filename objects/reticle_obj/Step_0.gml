@@ -156,3 +156,33 @@ if (keyboard_check_pressed(ord("R")) and global.ammo_box>=0 and terminal_obj.act
 		
 	audio_play_sound(reload_sound,0,false);
 }
+
+
+
+//if the lights are off make the cursor hard to see
+if (darkness_timer_obj.dark)
+{
+	image_alpha = 0.05;	
+}
+
+
+
+//else reset cursor
+else
+{
+	image_alpha = 1;	
+}
+
+
+
+//Code to detect crosshair animation play
+if (instance_exists(walk_alien_obj) && place_meeting(x, y, walk_alien_obj))
+	/* || instance_exists(other_alien) && place_meeting(x,y,other_alien));*/
+{
+
+	//place code here
+	
+}
+
+
+
