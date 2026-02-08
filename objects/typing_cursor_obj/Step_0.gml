@@ -65,6 +65,7 @@ if (keyboard_check_pressed(vk_enter) && terminal_obj.active == true)
 	if (string_lower(keyboard_string) == command_help)
 	{
 		terminal_print("List of commands:");
+		terminal_print("---------------");
 		terminal_print("HELP");
 		terminal_print("AMMO");
 		terminal_print("OXYGEN");
