@@ -153,3 +153,21 @@ if (keyboard_check_pressed(ord("R")) and global.ammo_box>=0 and terminal_obj.act
 		
 		audio_play_sound(reload_sound,0,false);
 }
+
+
+
+//if the lights are off make the cursor hard to see
+if (darkness_timer_obj.dark)
+{
+	image_alpha = 0.05;	
+}
+
+
+
+//else reset cursor
+else
+{
+	image_alpha = 1;	
+}
+
+
