@@ -30,7 +30,6 @@
   "resources":[
     {"id":{"name":"handwriting_font","path":"fonts/handwriting_font/handwriting_font.yy",},},
     {"id":{"name":"terminal_font","path":"fonts/terminal_font/terminal_font.yy",},},
-    {"id":{"name":"alien_obj","path":"objects/alien_obj/alien_obj.yy",},},
     {"id":{"name":"alien_spawner_obj","path":"objects/alien_spawner_obj/alien_spawner_obj.yy",},},
     {"id":{"name":"ambience_emitter_obj","path":"objects/ambience_emitter_obj/ambience_emitter_obj.yy",},},
     {"id":{"name":"ammo_counter","path":"objects/ammo_counter/ammo_counter.yy",},},
@@ -42,6 +41,7 @@
     {"id":{"name":"reticle_obj","path":"objects/reticle_obj/reticle_obj.yy",},},
     {"id":{"name":"terminal_obj","path":"objects/terminal_obj/terminal_obj.yy",},},
     {"id":{"name":"typing_cursor_obj","path":"objects/typing_cursor_obj/typing_cursor_obj.yy",},},
+    {"id":{"name":"walk_alien_obj","path":"objects/walk_alien_obj/walk_alien_obj.yy",},},
     {"id":{"name":"win_timer_obj","path":"objects/win_timer_obj/win_timer_obj.yy",},},
     {"id":{"name":"Spaceship_room","path":"rooms/Spaceship_room/Spaceship_room.yy",},},
     {"id":{"name":"terminal_print","path":"scripts/terminal_print/terminal_print.yy",},},
