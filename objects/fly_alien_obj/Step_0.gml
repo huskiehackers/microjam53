@@ -19,6 +19,7 @@ if (y <= -10 && curr_state != alien_state_fly.hit && curr_state != alien_state_f
 	{
 		// add hit damage
 		global.healthbar -= 15;
+		audio_play_sound(player_hurt_sound,0,false);
 	}
 }
 

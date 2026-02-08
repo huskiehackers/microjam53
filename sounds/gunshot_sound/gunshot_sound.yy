@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"reload_sound",
+  "%Name":"gunshot_sound",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":2.5861225,
+  "duration":1.1280046,
   "exportDir":"",
-  "name":"reload_sound",
+  "name":"gunshot_sound",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -20,7 +20,7 @@
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
-  "sampleRate":22050,
-  "soundFile":"reload_sound.mp3",
+  "sampleRate":44100,
+  "soundFile":"gunshot_sound.mp3",
   "volume":1.0,
 }

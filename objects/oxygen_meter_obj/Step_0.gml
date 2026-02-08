@@ -16,7 +16,7 @@ if (countdown == 0 )
 }
 
 if(countdown <= 0){
-	global.healthbar -= oxygen_damage;	
+	global.healthbar -= oxygen_damage;
 }
 
 

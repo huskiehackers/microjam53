@@ -19,6 +19,7 @@ if (y >= 540 && curr_state != alien_state.hit && curr_state != alien_state.dying
 	{
 		// add hit damage
 		global.healthbar -= 15;
+		audio_play_sound(player_hurt_sound,0,false);
 	}
 }
 
