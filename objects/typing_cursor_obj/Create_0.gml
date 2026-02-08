@@ -32,8 +32,10 @@ command_oxygen = "oxygen";
 
 command_lights = "lights";
 
-
-
+//health
+command_medkit = "medkit";
+medkit_cooldown=false
+have_medkit=true
 
 
 //if the terminal exists

@@ -1,0 +1,1 @@
+medkit_cooldown=false

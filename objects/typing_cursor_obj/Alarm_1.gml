@@ -1,0 +1,1 @@
+global.healthbar=6
