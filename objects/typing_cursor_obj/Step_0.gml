@@ -61,6 +61,7 @@ if (keyboard_check_pressed(vk_enter) && terminal_obj.active == true)
 	if (keyboard_string != "")
 	{
 	    ds_list_add(terminal_lines, keyboard_string);
+		ds_list_add(terminal_lines_mini, keyboard_string);
 	}
 
 	// reset the input
@@ -71,12 +72,16 @@ if (keyboard_check_pressed(vk_enter) && terminal_obj.active == true)
 	{
 	    ds_list_delete(terminal_lines, 0);
 	}
-
-	// optional debug
-	if (ds_list_size(terminal_lines) > 0)
+	
+	
+	
+	// keep only what fits on screen (delete oldest)
+	while (ds_list_size(terminal_lines_mini) > max_lines)
 	{
-	    show_debug_message(ds_list_find_value(terminal_lines, ds_list_size(terminal_lines) - 1));
+	    ds_list_delete(terminal_lines_mini, 0);
 	}
+
+
 
 
 	
