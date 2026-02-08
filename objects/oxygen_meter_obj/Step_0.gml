@@ -24,7 +24,7 @@ if(countdown <= 0){
 
 if (global.healthbar<=0)
 {
-	room_restart()	
+	room_goto(defeat_room);
 }
 if countdown <= 0
 { 

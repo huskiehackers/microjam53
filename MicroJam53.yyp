@@ -39,6 +39,7 @@
     {"id":{"name":"crawl_alien_obj","path":"objects/crawl_alien_obj/crawl_alien_obj.yy",},},
     {"id":{"name":"damage_effect_obj","path":"objects/damage_effect_obj/damage_effect_obj.yy",},},
     {"id":{"name":"darkness_timer_obj","path":"objects/darkness_timer_obj/darkness_timer_obj.yy",},},
+    {"id":{"name":"defeat_room_obj","path":"objects/defeat_room_obj/defeat_room_obj.yy",},},
     {"id":{"name":"fly_alien_obj","path":"objects/fly_alien_obj/fly_alien_obj.yy",},},
     {"id":{"name":"gun_obj","path":"objects/gun_obj/gun_obj.yy",},},
     {"id":{"name":"medkit_label_obj","path":"objects/medkit_label_obj/medkit_label_obj.yy",},},
@@ -52,6 +53,7 @@
     {"id":{"name":"victory_room_obj","path":"objects/victory_room_obj/victory_room_obj.yy",},},
     {"id":{"name":"walk_alien_obj","path":"objects/walk_alien_obj/walk_alien_obj.yy",},},
     {"id":{"name":"win_timer_obj","path":"objects/win_timer_obj/win_timer_obj.yy",},},
+    {"id":{"name":"defeat_room","path":"rooms/defeat_room/defeat_room.yy",},},
     {"id":{"name":"Spaceship_room","path":"rooms/Spaceship_room/Spaceship_room.yy",},},
     {"id":{"name":"victory_rom","path":"rooms/victory_rom/victory_rom.yy",},},
     {"id":{"name":"terminal_print","path":"scripts/terminal_print/terminal_print.yy",},},
@@ -72,6 +74,7 @@
     {"id":{"name":"background_ship_dark_spr","path":"sprites/background_ship_dark_spr/background_ship_dark_spr.yy",},},
     {"id":{"name":"background_ship_spr","path":"sprites/background_ship_spr/background_ship_spr.yy",},},
     {"id":{"name":"crawl_alien_spr","path":"sprites/crawl_alien_spr/crawl_alien_spr.yy",},},
+    {"id":{"name":"defeat_screen_spr","path":"sprites/defeat_screen_spr/defeat_screen_spr.yy",},},
     {"id":{"name":"empty_oxygen_spr1","path":"sprites/empty_oxygen_spr1/empty_oxygen_spr1.yy",},},
     {"id":{"name":"empty_oxygen_spr2","path":"sprites/empty_oxygen_spr2/empty_oxygen_spr2.yy",},},
     {"id":{"name":"empty_oxygen_spr3","path":"sprites/empty_oxygen_spr3/empty_oxygen_spr3.yy",},},
@@ -97,6 +100,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"Spaceship_room","path":"rooms/Spaceship_room/Spaceship_room.yy",},},
     {"roomId":{"name":"victory_rom","path":"rooms/victory_rom/victory_rom.yy",},},
+    {"roomId":{"name":"defeat_room","path":"rooms/defeat_room/defeat_room.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

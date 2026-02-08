@@ -1,12 +1,10 @@
 
-
-
-//loop end frames
-if (image_index >= 41 )
+//freeze sprite
+if (image_index >= 43)
 {
-	image_index = 38;
+	image_index = 43;
+	image_speed = 0;
 }
-
 
 
 

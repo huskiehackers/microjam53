@@ -9,7 +9,7 @@ CRAWL_SPAWN_TIME_HIGH = 60 * 12;
 FLY_SPAWN_TIME_LOW = 60 * 9;
 FLY_SPAWN_TIME_HIGH = 60 * 12;
 
-random_set_seed(32232339);
+randomise();
 
 //set alarm to begin alien creation process.
 alarm[0] = irandom_range(SPAWN_TIME_LOW, SPAWN_TIME_HIGH);
