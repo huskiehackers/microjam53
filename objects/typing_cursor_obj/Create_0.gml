@@ -5,12 +5,19 @@ draw_spot_y = y;
 
 //create the queue
 terminal_lines = ds_list_create();
+terminal_lines_mini = ds_list_create();
 
+//values for large terminal
 line_h = 45;
 input_y = y - 105;
 ceiling_y = 40;
 
-cmd_history = ds_queue_create();
+
+//values for mini terminal
+line_h_mini = 15;
+input_y_mini = y - 105;
+ceiling_y_mini = 450;
+
 
 font_width = 1;
 
