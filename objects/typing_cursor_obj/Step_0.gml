@@ -51,6 +51,15 @@ if (keyboard_check_pressed(vk_enter) && terminal_obj.active == true)
 		terminal_print("AMMUNITION GRANTED");
 	}
 	
+	else if (string_lower(keyboard_string) == command_ammo && global.ammo_box >= 32)
+	{
+		
+		global.ammo_box = 64;
+		terminal_print("AMMUNITION GRANTED");
+	}
+	
+	
+	
 	if(string_lower(keyboard_string) == command_lights && darkness_timer_obj.dark == true){
 	
 		layer_background_sprite(layer_background_get_id("Background"), background_ship_spr);

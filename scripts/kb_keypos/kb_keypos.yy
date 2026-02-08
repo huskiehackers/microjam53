@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"kb_keypos",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"kb_keypos",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
