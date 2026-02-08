@@ -1,7 +1,7 @@
 //variables
 
-minutes = 0;
-seconds = 15;
+minutes = 2;
+seconds = 0;
 decisec = 0;
 
 alarm[0] = 6;
