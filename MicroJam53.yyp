@@ -36,6 +36,7 @@
     {"id":{"name":"crawl_alien_obj","path":"objects/crawl_alien_obj/crawl_alien_obj.yy",},},
     {"id":{"name":"damage_effect_obj","path":"objects/damage_effect_obj/damage_effect_obj.yy",},},
     {"id":{"name":"darkness_timer_obj","path":"objects/darkness_timer_obj/darkness_timer_obj.yy",},},
+    {"id":{"name":"gun_obj","path":"objects/gun_obj/gun_obj.yy",},},
     {"id":{"name":"fly_alien_obj","path":"objects/fly_alien_obj/fly_alien_obj.yy",},},
     {"id":{"name":"music_player_obj","path":"objects/music_player_obj/music_player_obj.yy",},},
     {"id":{"name":"oxygen_meter_obj","path":"objects/oxygen_meter_obj/oxygen_meter_obj.yy",},},

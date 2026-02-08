@@ -16,7 +16,7 @@ curr_state = alien_state.walking;
 
 // Animation Timings
 
-walk_start = 1;
+walk_start = 0;
 walk_end = 8;
 
 attack_start = 9;

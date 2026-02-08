@@ -26,7 +26,7 @@ if(image_alpha < 1){
 	image_alpha += .01;
 }
 
-if (keyboard_check_pressed(vk_space) and global.pistolammo >= 1 and place_meeting(x, y, reticle_obj) && curr_state != alien_state.dying)
+if (keyboard_check_pressed(vk_space) and global.pistolammo >= 1 and place_meeting(x, y, reticle_obj) && curr_state != alien_state.dying && global.reload_event == false)
 {
 	curr_state = alien_state.hit;
 	alien_health -= 5;
