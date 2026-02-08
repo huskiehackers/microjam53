@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"reticle_static_spr",
-    "path":"sprites/reticle_static_spr/reticle_static_spr.yy",
+    "name":"reticle_spr",
+    "path":"sprites/reticle_spr/reticle_spr.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -17,7 +17,7 @@ if (global.reload_event)
 // Animation loop
 if (curr_state == gun_state.idle)
 {
-	image_index = 0;
+	image_index = idle_frame;
 }
 else if (curr_state == gun_state.shooting)
 {
