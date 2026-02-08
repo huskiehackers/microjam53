@@ -1,4 +1,3 @@
-
 draw_spot_x = x;
 draw_spot_y = y;
 
@@ -58,7 +57,7 @@ if (instance_exists(terminal_obj))
 }
 
 
-
+global.has_medkit = false;
 
 
 keyboard_string = "";

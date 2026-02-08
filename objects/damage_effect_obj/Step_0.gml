@@ -28,10 +28,11 @@ if global.healthbar <=20
 	display_get_width()
 	display_get_height()
 }
-	//if player uses a medkit
-	if keyboard_check_pressed(ord("F"))
-	{
-		global.healthbar= 100
-		show_debug_message(global.healthbar)
-		have_medkit=false
-	}
+
+//if player uses a medkit
+if (global.has_medkit && keyboard_check_pressed(ord("F")))
+{
+	global.healthbar= 100
+	global.has_medkit = false
+	show_debug_message(global.healthbar)
+}
