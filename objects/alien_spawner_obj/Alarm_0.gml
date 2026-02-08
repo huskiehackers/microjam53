@@ -6,4 +6,4 @@ instance_create_layer(irandom_range(460,670),420,
 					  walk_alien_obj);
 
 //reset the alarm.
-alarm[0] = irandom_range(SPAWN_TIME_LOW, SPAWN_TIME_HIGH);
+//alarm[0] = irandom_range(SPAWN_TIME_LOW, SPAWN_TIME_HIGH);

@@ -58,6 +58,7 @@
     {"id":{"name":"alien_standard_spr","path":"sprites/alien_standard_spr/alien_standard_spr.yy",},},
     {"id":{"name":"background_ship_dark_spr","path":"sprites/background_ship_dark_spr/background_ship_dark_spr.yy",},},
     {"id":{"name":"background_ship_spr","path":"sprites/background_ship_spr/background_ship_spr.yy",},},
+    {"id":{"name":"crawl_alien_spr","path":"sprites/crawl_alien_spr/crawl_alien_spr.yy",},},
     {"id":{"name":"empty_oxygen_spr1","path":"sprites/empty_oxygen_spr1/empty_oxygen_spr1.yy",},},
     {"id":{"name":"empty_oxygen_spr2","path":"sprites/empty_oxygen_spr2/empty_oxygen_spr2.yy",},},
     {"id":{"name":"empty_oxygen_spr3","path":"sprites/empty_oxygen_spr3/empty_oxygen_spr3.yy",},},
